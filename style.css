@@ -24,42 +24,60 @@ body {
 #login input.active {
 	border: 1px solid black;
 	border-radius: 5px;
-	width: 300px;
+	width: 200px;
 	height: 40px;
+}
+
+#login input.active:hover {
+	width: 300px;
+	-webkit-transition: width 0.6s;
+}
+
+#login input.active:focus {
+	width: 300px;
 }
 
 #login input.pass {
 	border: 1px solid black;
 	border-radius: 5px;
-	width: 250px;
+	width: 150px;
 	height: 40px;
+}
+
+#login input.pass:hover {
+	width: 250px;
+	-webkit-transition: width 0.6s;
+}
+
+#login input.pass:focus {
+	width: 250px;
 }
 
 #login button {
 	font-family: 'Raleway', Arial, sans-serif;
-  	border: none;
-  	background-color: #5666a5;
-  	border-radius: 5px;
-  	color: #ffffff;
-  	cursor: pointer;
-  	padding: 0px 30px;
-  	display: inline-block;
-  	margin: 15px 30px;
-  	text-transform: uppercase;
-  	line-height: 46px;
-  	font-weight: 400;
-  	font-size: 1em;
-  	outline: none;
-  	position: relative;
-  	overflow: hidden;
-  	font-size: 16px;
-  	border-radius: 23px;
-  	letter-spacing: 2px;
-  	webkit-transform: translateZ(0);
-  	webkit-transition: all 0.35s ease;
-  	transition: all 0.35s ease;
-  	webkit-box-sizing: border-box;
-  	box-sizing: border-box;
+  border: none;
+  background-color: #5666a5;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  webkit-transform: translateZ(0);
+  webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #login button a {
